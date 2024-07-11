@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멀티프로세싱 개념</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>멀티프로세싱과 관련 개념</h1>
+        <img src="images/삼정KPMG.png" alt="삼정 KPMG Future Academy">
+    </header>
+    <main>
+        <section id="comparison">
+            <h2>멀티프로세싱 vs 싱글프로세싱</h2>
+            <div class="concept">
+                <h3>멀티프로세싱</h3>
+                <p>여러 개의 CPU를 사용하여 작업을 동시에 처리하여 컴퓨터 성능을 향상시킵니다.</p>
+            </div>
+            <div class="concept">
+                <h3>싱글프로세싱</h3>
+                <p>하나의 CPU가 한 번에 하나의 작업만 처리하여 성능이 제한됩니다.</p>
+            </div>
+        </section>
+        <section id="tree">
+            <h2>멀티프로세싱 관련개념</h2>
+            <div class="row">
+                <div class="column">
+                    <h3>명령어 병렬 처리</h3>
+                    <p>CPU 1 코어 1 Task n 의 형태로 하나의 코어가 n개의 작업을 수행(여러 작업자가 있는 것처럼 운용하는 방법 : 하이퍼쓰레딩)</p>
+                    <img src="images/image2.png" alt="삼정 KPMG Future Academy">
+                
+                    <br>
+
+                <div class="column">
+                    <h3>멀티코어</h3>
+                    <p>CPU 1 코어 n Task m 의 형태로 n개의 코어로 m개의 작업을 수행</p>
+                    <img src="images/image1.png" alt="삼정 KPMG Future Academy">
+                </div>
+
+                <br>
+                
+                </div>
+                <div class="column">
+                    <h3>멀티프로세서 시스템</h3>
+                    <p>CPU n 코어 m Task l의 형태로 n개의 cpu로 n x m 개의 코어로 l개의 작업을 수행 </p>
+                    <img src="images/image3.png" alt="삼정 KPMG Future Academy">
+                </div>
+            </div>
+        </section>
+        <section id="concurrency-parallelism">
+            <h2>동시성과 병렬성</h2>
+            <div class="concept">
+                <h3>동시성</h3>
+                <p>여러 작업을 동시에 수행, 예시로 자동차 A와 자동차 B를 동시에 생산</p>
+            </div>
+            <div class="concept">
+                <h3>병렬성</h3>
+                <p>하나의 작업을 여러 프로세스로 나누어 동시에 수행, 예시로 자동차 A의 타이어와 핸들을 동시에 생산</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 멀티프로세싱 개념</p>
+    </footer>
+</body>
+</html>
+
